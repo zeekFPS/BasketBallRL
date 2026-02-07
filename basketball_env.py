@@ -9,14 +9,14 @@ import warnings
 # Suppression du warning pygame
 warnings.filterwarnings("ignore", category=UserWarning, module="pygame")
 
-# Constantes
+# On déclare les constantes globales pour l'environnement
 WIDTH, HEIGHT = 1000, 700
 FPS = 60
 BALL_RADIUS = 8
 HOOP_X, HOOP_Y = 800, 150
 HOOP_RADIUS = 20 # Rayon du cercle de détection
 
-# Couleurs
+# On délcare les couleurs
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
 ORANGE = (255, 165, 0)
